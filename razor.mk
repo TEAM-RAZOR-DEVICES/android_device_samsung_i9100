@@ -22,14 +22,14 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/razor/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9100
-PRODUCT_NAME := du_i9100
+PRODUCT_NAME := razor_i9100
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-I9100
 
